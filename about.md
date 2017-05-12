@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 企业简介
 ---
 
 <p class="message">

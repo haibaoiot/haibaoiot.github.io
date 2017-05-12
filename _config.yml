@@ -9,7 +9,7 @@ highlighter:      pygments
 # Setup
 title:            海豹物联
 tagline:          '水下视频与水质检测综合解决方案'
-description:      '<a href="http://www.gzhaibaogd.com" target="_blank">广州海豹光电科技有限公司</a>:水下视频/水质检测与控制/智能化综合方案'
+description:      '<a href="http://www.gzhaibaogd.com" target="_blank">广州海豹光电科技有限公司</a>是一家专业水下视频研发制造商，水质检测与控制仪器制造商，并提供智能水产、智慧海洋综合解决方案'
 url:              http://haibaoiot.github.io
 
 baseurl:          /
