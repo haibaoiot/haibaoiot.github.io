@@ -2,13 +2,14 @@
 layout: page
 title: 执行器
 ---
-	执行器(action)为执行相应的动作
+
 - [遥测插件动作](#遥测插件动作)
 - [发送邮件执行器](#发送邮件执行器)
-- [REST API](#REST API)
-- [RPC PLUGIN](#RPC PLUGIN)
-- [Kafka插件动作](#Kafka插件动作)
-- [RabbitMQ插件动作](#RabbitMQ插件动作)
+- [REST API](#rest-api)
+- [RPC PLUGIN](#rpc-plugin)
+- [Kafka插件动作](#kafka插件动作)
+- [RabbitMQ插件动作](#rabbitmq插件动作)
+
 ## 遥测插件动作
 
 此组件允许将传入属性和时间序列请求转发到遥测插件。
@@ -17,7 +18,7 @@ title: 执行器
 
 作为系统管理员，您可以查看“ 规则” - >“系统遥测规则” - >“操作” - >“遥测插件操作”中的操作示例。
 
-![img](/images/action-telemetry.png)
+![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/action-telemetry.png)
 
 ## 发送邮件执行器
 
@@ -29,7 +30,7 @@ title: 执行器
 
 作为租户管理员，您可以查看Rules- > Demo Alarm Rule-> Actions-> Send Mail Action中的动作示例。
 
-！![img](/images/action-sendmail.png)
+！![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/action-sendmail.png)
 
 ## REST API
 
@@ -53,7 +54,7 @@ Template语法基于 [Velocity](https://velocity.apache.org/)，并已在报警�
 
 作为租户管理员，您可以在Rules-> Demo Time RPC Rule-> Actions-> RPC Plugin Action中查看操作示例。
 
-![img](/images/action-rpc.png)
+![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/action-rpc.png)
 
 ## Kafka插件动作
 
