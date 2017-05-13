@@ -11,7 +11,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>  
 <%  
     //WeiXinHandler为内部类不能使用非final类型的对象  
-    final String TOKEN="weixin";  
+    final String TOKEN="haibaoiot";  
     final HttpServletRequest final_request=request;   
     final HttpServletResponse final_response=response;  
 %>  
