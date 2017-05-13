@@ -6,12 +6,12 @@ title: 小部件
 - [小部件类型](#小部件类型)
 - [数据源类型](#数据源类型)
 - [系统小部件包](#系统小部件包)
-	- [Digital Gauges](#Digital_Gauges)
-	- [Analog Gauges](#Analog_Gauges)
-	- [Charts](#Charts)
-	- [Cards](#Cards)
-	- [GPIO widgets](#GPIO_widgets)
-	- [Maps widgets](#Maps_widgets)
+	- [Digital Gauges](#digital-gauges)
+	- [Analog Gauges](#analog-gauges)
+	- [Charts](#charts)
+	- [Cards](#cards)
+	- [GPIO widgets](#gpio-widgets)
+	- [Maps widgets](#maps-widgets)
 - [小部件包导入导出](#小部件包导入导出)
 	- [小部件包导出](#小部件包导出)
 	- [小部件包导入](#小部件包导入)
@@ -44,62 +44,69 @@ title: 小部件
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-1.png)
 
-##### Digital_Gauges
+### Digital Gauges
+
 用于温度，湿度，速度和其他整数或浮点值的可视化。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-2.png)
 
-##Analog_Gauges
+### Analog Gauges
 
 类似于数字仪表，但具有不同的风格。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-3.png)
 
-##Charts
+### Charts
 
 用于通过时间窗口可视化历史或实时数据。
  
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-4.png)
 
-##GPIO_widgets
+### Cards
+
+可用于表格或卡片小部件中的时间序列数据或属性的可视化。
+
+![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-7.png)
+
+### GPIO widgets
 
 可用于目标设备的GPIO状态的可视化和控制。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-5.png)
 
-##Maps_widgets
+### Maps widgets
 
 对于设备的可视化有用，地理位置和轨道设备都以实时和历史模式进行路由。
  
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-6.png)
 
-##Cards
-可用于表格或卡片小部件中的时间序列数据或属性的可视化。
+## 小部件包导入导出
 
-![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-7.png)
+### 小部件包导出
 
-##小部件包导入导出
-#####小部件包导出
 您可以将窗口小部件包导出为JSON格式，并将其导入到相同或另一个Thingsboard实例。
 为了导出窗口小部件包，您应该导航到“ 窗口小部件库”页面，然后单击位于特定窗口小部件包卡上的导出按钮。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-8.png)
 
-#####小部件包导入
+### 小部件包导入
 
 类似地，要导入小部件包，您应该导航到“ 小部件库”页面，然后单击屏幕右下角的大“+”按钮，然后单击导入按钮。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-10.png)
 
 弹出窗口小部件包导入窗口，弹出提示您上传json文件。
-##小部件导入导出
-#####小部件导出
+
+## 小部件导入导出
+
+### 小部件导出
+
 您可以将特定的小部件类型从小部件包导出为JSON格式，并将其导入到相同或另一个Thingsboard实例。
 为了导出窗口小部件类型，您应该导航到窗口小部件库页面，然后打开所需的窗口小部件包，最后单击特定窗口小部件类型卡上的导出按钮。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-9.png)
 
-#####小部件导入
+### 小部件导入
 类似地，要导入窗口小部件类型，您应该导航到窗口小部件库页面，然后打开您的窗口小部件包，然后单击屏幕右下角的大“+”按钮，然后单击导入按钮。
 
 ![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-widget-11.png)

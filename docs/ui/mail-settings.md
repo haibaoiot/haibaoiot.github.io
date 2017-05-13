@@ -7,7 +7,7 @@ title: 邮箱设置
 
 邮箱配置配置系统发送邮箱，即发送账号激活、找回密码、官方通知邮件等的发送邮箱。即客户接收到的系统发送邮件的邮箱，都是在这里设置的。
 
-![image](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-mailset.png)
+![](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/UI-mailset.png)
 
 上图为采用腾讯企业邮箱的设置，注意发件人”<>”内的邮箱要与下方登录用户名一致。
 
