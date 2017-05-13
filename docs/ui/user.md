@@ -10,9 +10,9 @@ title: 用户
 
 只有系统管理员能够创建租户，还可在租户详细信息中添加多个不同的租户管理员账户。
 
-![租户](/images/UI-tenant.png)
+![租户](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/UI-tenant.png)
 
-![租户管理员设置](/images/UI-tenant-admin.png)
+![租户管理员设置](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/UI-tenant-admin.png)
 
 租户管理员能够执行以下操作：
 
@@ -31,11 +31,11 @@ title: 用户
 
 例如，给某公司出售了使用物联网的十套在线溶解氧监测和控制装备，十套具体的设备、仪表板只能分配给该公司使用，而该公司名下，又有几个不同的用户，可正常通过物联网查看设备
 
-![img](/images/ui-customer.png)
+![img](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/ui-customer.png)
 
 
 #**用户**#
 	用户即使用物联网的最终用户，只有查看权，无修改权限
 用户只能查看分配给自己的仪表板
 
-![image](/images/home-user.png)
+![image](https://raw.githubusercontent.com/haibaoiot/haibaoiot.github.io/master/images/home-user.png)

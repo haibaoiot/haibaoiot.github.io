@@ -9,25 +9,66 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+
+
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">最新消息</a>
+	  
+	  <a href="/docs/sys/">系统简介</a>
+	  
+	  <details class="menu0" close>
+        <summary>用户界面</summary>
+          <ul>
+            <li><a href="/docs/ui/mail-settings/">邮箱设置</a></li>
+            <li><a href="/docs/ui/plugin/">插件</a></li>
+			<li><a href="/docs/ui/rule/">规则</a></li>
+			<li><a href="/docs/ui/user/">用户</a></li>
+			<li><a href="/docs/ui/device/">设备</a></li>
+			<li><a href="/docs/ui/widget/">小部件</a></li>
+			<li><a href="/docs/ui/dashboard/">仪表板</a></li>
+		  </ul>	  
+	  </details>
+	
+	  <details class="menu1" close>
+        <summary>插件</summary>
+          <ul>
+            <li><a href="/about/">插件简介</a></li>
+            <li><a href="/docs/rule/">子菜单2</a></li>
+		  </ul>	  
+	  </details>
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
+	  <details class="menu2" close>
+        <summary>规则</summary>
+          <ul>
+            <li><a href="/about/">登陆</a></li>
+            <li><a href="/docs/rule/">子菜单2</a></li>
+		  </ul>	  
+	  </details>
 
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+	  <details class="menu3" close>
+        <summary>过滤</summary>
+          <ul>
+            <li><a href="/about/">登陆</a></li>
+            <li><a href="/docs/rule/">子菜单2</a></li>
+		  </ul>	  
+	  </details>
+
+	  <a href="/about/">处理</a>
+	  
+	  <details class="menu4" close>
+        <summary>执行</summary>
+          <ul>
+            <li><a href="/about/">登陆</a></li>
+            <li><a href="/docs/rule/">子菜单2</a></li>
+		  </ul>	  
+	  </details>
+
+	  
+	  <a href="/about/">关于</a>	  
+    
 
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <!--p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p-->
   </div>
 </div>
